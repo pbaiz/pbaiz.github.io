@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Pedro
 middle_name: M.
 last_name: Baiz V.
-email: you@example.com
+email:  # p.m.baiz@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -20,7 +20,7 @@ icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name
 
 url: https://pbaiz.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
-last_updated: false # set to true if you want to display last updated in the footer
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
@@ -41,7 +41,7 @@ repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-s
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false # it was set by default and I do not know what to use
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -67,10 +67,10 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username: pbaiz  # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
+twitter_username: PM_Baiz # your Twitter handle
+linkedin_username: pedrobaiz # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 orcid_id: # your ORCID ID
@@ -94,7 +94,8 @@ facebook_id: # your facebook id
 discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Reach out via LinkedIn preferably (https://www.linkedin.com/in/pedrobaiz/)
+#  You can even add a little note about which of these is the best way to reach you.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -230,8 +231,8 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 
 scholar:
 
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Baiz]
+  first_name: [Pedro, M.]
 
   style: apa
   locale: en
@@ -254,10 +255,10 @@ scholar:
   query: "@*"
 
 # Filter out certain bibtex entry keywords used internally from the bib output
-filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview]
+filtered_bibtex_keywords: [] # [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3  # leave blank to always show all authors
+max_author_limit:  # leave blank to always show all authors
 more_authors_animation_delay: 10  # more authors are revealed on click using animation; smaller delay means faster animation
 
 
