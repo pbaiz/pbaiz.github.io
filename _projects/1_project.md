@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Satellite Imaging
+description: Leveraging AI and other datasets to make sense of Satellite data.
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: Imperial
 ---
 
 Every project has a beautiful feature showcase page.
