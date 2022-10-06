@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Blockchain and Carbon Markets
-description: Enabling a digital scalable international ecosystem.
+description: Enabling a digitally scalable international ecosystem.
 img: assets/img/3.jpg
 importance: 1
 category: ISO
