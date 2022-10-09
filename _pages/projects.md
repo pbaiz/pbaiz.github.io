@@ -58,8 +58,11 @@ horizontal: false
 </div>
 
 
+<h1 style="margin-top:3cm;">  
+Student Projects (BEng, MEng, MSc)
+</h1>
 
-Project List
+
 
 1. Mr. Cesar Maklary, Aeronautics MEng. Simulation of a Smart Grid, 2019. First Class Report. 
 a. Industrial Cooperation with 100%Open and other Energy sector stakeholders.
